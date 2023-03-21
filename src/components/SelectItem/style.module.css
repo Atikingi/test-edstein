@@ -1,0 +1,95 @@
+@import "../../styles/colors.module.css";
+
+.container {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.itemWrapper {
+    height: 100%;
+    padding-left: 18px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconWrapperActive {
+    display: block;
+    width: 21px;
+    height: 15px;
+}
+
+.iconWrapperHidden {
+    display: none;
+}
+
+.checkboxWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--textDark);
+}
+
+.container:hover, .text:hover {
+    background-color: #eae5e5;
+    cursor: pointer;
+}
+
+.inputWrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.checkboxChecked {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 100%;
+    height: 100%;
+    background: var(--checkboxBlue);
+    border: 2px solid #0049D9;
+    border-radius: 6px;
+}
+
+.checkboxUnchecked {
+    composes: checkboxChecked;
+    background: var(--bgPrimary);
+    border-color: var(--bgGray);
+}
+
+.checkedIconWrapperShow {
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.checkedIconWrapperHidden {
+    display: none;
+}
+
+.checkboxChecked:hover {
+    cursor: pointer;
+}

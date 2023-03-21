@@ -1,0 +1,31 @@
+@import "../../styles/colors.module.css";
+
+.container {
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: var(--bgGray);
+    border-radius: 8px;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--textDark);
+}
+
+.iconWrapper {
+    height: 8px;
+    display: flex;
+}
+
+.iconWrapper:hover {
+    cursor: pointer;
+}
