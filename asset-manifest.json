@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/test-edstein/static/css/main.14b9c72c.css",
+    "main.css": "/test-edstein/static/css/main.22c0f7ec.css",
     "main.js": "/test-edstein/static/js/main.22f2ea58.js",
     "index.html": "/test-edstein/index.html",
-    "main.14b9c72c.css.map": "/test-edstein/static/css/main.14b9c72c.css.map",
+    "main.22c0f7ec.css.map": "/test-edstein/static/css/main.22c0f7ec.css.map",
     "main.22f2ea58.js.map": "/test-edstein/static/js/main.22f2ea58.js.map"
   },
   "entrypoints": [
-    "static/css/main.14b9c72c.css",
+    "static/css/main.22c0f7ec.css",
     "static/js/main.22f2ea58.js"
   ]
 }
